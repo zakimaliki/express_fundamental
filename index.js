@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan')
 const app = express();
-const commonMiddle = require("./src/Middleware/common")
+const commonMiddle = require("./src/middleware/common")
 const products =[
     {
     id : 1,
