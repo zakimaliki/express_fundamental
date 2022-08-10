@@ -18,3 +18,14 @@
 [CORS]: <https://www.npmjs.com/package/cors>
 [Eslint]: <https://eslint.org>
 [Http-errors]: <https://www.npmjs.com/package/http-errors>
+
+## installation
+
+- npm install
+- npm run dev or npm run server
+
+## debug
+
+- npm run lint
+
+
