@@ -15,7 +15,7 @@ const products =[
 ]
 
 const productController ={
-    getAllProduct :  (req,res, next) =>{
+    getAllProduct :  (req,res) =>{
         res.send(products);
     },
     getProduct :  (req,res) =>{

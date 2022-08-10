@@ -5,6 +5,7 @@ CREATE TABLE product(
     name VARCHAR NOT NULL,
     stoct INT NOT NULL,
     price INT NOT NULL,
+    category_id integer REFERENCES category (id)
 );
 
 CREATE TABLE category(
@@ -12,11 +13,15 @@ CREATE TABLE category(
     name VARCHAR NOT NULL
 );
 
+DROP TABLE product CASCADE;
+
 SELECT * FROM category;
 
-select * from category where id=13;
+SELECT * FROM category WHERE id=13;
 
 INSERT INTO category(id,name) VALUES(13,’kursi’);
+
+INSERT INTO category(name) VALUES(’kursi’);
 
 UPDATE category SET name ='makanan' WHERE id=13;
 
