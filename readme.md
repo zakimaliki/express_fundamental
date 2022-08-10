@@ -1,8 +1,11 @@
 # List third party module
-- Start  --> npm install express --> npm instal nodemon -D --> npm i morgan -D
-## Features
-- CRUD   --> npm i pg
-- ENV    --> npm i dotenv
-- CORS   --> npm i cors
-- Linter --> npm i eslint -D and npx eslint --init --> npm install --save-dev eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-n
-- Erhand --> npm i http-errors
+| Thrid Party | npm install |
+| ------ | ------ |
+| Express | npm i express  |
+| Nodemon | npm i nodemon  |
+| Morgan |  npm i morgan  |
+| PostgresSQL | npm i pg |
+| Dotenv | npm i dotenv |
+| CORS | npm i cors |
+| Eslint | npm i eslint |
+| Http-errors | npm i http-errors |
