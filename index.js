@@ -12,7 +12,6 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors())
 
-// ....../
 
 app.use('/products', productRouter )
 app.use('/category', categoryRouter )
