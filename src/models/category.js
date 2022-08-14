@@ -1,7 +1,7 @@
 const Pool = require('../config/db')
-const selectAll =()=>{
-    return Pool.query(`SELECT * FROM category`);
-}
+const selectAll = ({limit,offset,sort,sortby}) => {
+    return Pool.query(`SELECT * FROM category ORDER BY ${sortby} ${sort} LIMIT ${limit} OFFSET ${offset}`)
+  }
 const select =(id)=>{
     return Pool.query(`select * from category where id=${id}`);
 }
